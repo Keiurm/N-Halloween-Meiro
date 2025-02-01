@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kei/Desktop/N-Code-Labo/Unity/NH_unity_meiro_halloween_2022/NH_unity_meiro_halloween_2022/Assembly-CSharp.csproj": {}
+    "/Users/kei/Desktop/N Code Labo/N-Halloween_Meiro/NH_unity_meiro_halloween_2022/Assembly-CSharp.csproj": {}
   },
   "projects": {
-    "/Users/kei/Desktop/N-Code-Labo/Unity/NH_unity_meiro_halloween_2022/NH_unity_meiro_halloween_2022/Assembly-CSharp.csproj": {
+    "/Users/kei/Desktop/N Code Labo/N-Halloween_Meiro/NH_unity_meiro_halloween_2022/Assembly-CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kei/Desktop/N-Code-Labo/Unity/NH_unity_meiro_halloween_2022/NH_unity_meiro_halloween_2022/Assembly-CSharp.csproj",
+        "projectUniqueName": "/Users/kei/Desktop/N Code Labo/N-Halloween_Meiro/NH_unity_meiro_halloween_2022/Assembly-CSharp.csproj",
         "projectName": "Assembly-CSharp",
-        "projectPath": "/Users/kei/Desktop/N-Code-Labo/Unity/NH_unity_meiro_halloween_2022/NH_unity_meiro_halloween_2022/Assembly-CSharp.csproj",
+        "projectPath": "/Users/kei/Desktop/N Code Labo/N-Halloween_Meiro/NH_unity_meiro_halloween_2022/Assembly-CSharp.csproj",
         "packagesPath": "/Users/kei/.nuget/packages/",
-        "outputPath": "/Users/kei/Desktop/N-Code-Labo/Unity/NH_unity_meiro_halloween_2022/NH_unity_meiro_halloween_2022/obj/",
+        "outputPath": "/Users/kei/Desktop/N Code Labo/N-Halloween_Meiro/NH_unity_meiro_halloween_2022/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kei/.nuget/NuGet/NuGet.Config"
