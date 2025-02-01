@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "Assembly-CSharp/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Assembly-CSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assembly-CSharp.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Assembly-CSharp/1.0.0": {
+      "type": "project",
+      "path": "Assembly-CSharp.csproj",
+      "msbuildProject": "Assembly-CSharp.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": []
+    ".NETStandard,Version=v2.1": [
+      "Assembly-CSharp >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/kei/.nuget/packages/": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kei/Desktop/N-Code-Labo/Unity/NH_unity_meiro_halloween_2022/NH_unity_meiro_halloween_2022/Assembly-CSharp.csproj",
-      "projectName": "Assembly-CSharp",
-      "projectPath": "/Users/kei/Desktop/N-Code-Labo/Unity/NH_unity_meiro_halloween_2022/NH_unity_meiro_halloween_2022/Assembly-CSharp.csproj",
+      "projectUniqueName": "/Users/kei/Desktop/N Code Labo/N-Halloween-Meiro/NH_unity_meiro_halloween_2022/Assembly-CSharp-Editor.csproj",
+      "projectName": "Assembly-CSharp-Editor",
+      "projectPath": "/Users/kei/Desktop/N Code Labo/N-Halloween-Meiro/NH_unity_meiro_halloween_2022/Assembly-CSharp-Editor.csproj",
       "packagesPath": "/Users/kei/.nuget/packages/",
-      "outputPath": "/Users/kei/Desktop/N-Code-Labo/Unity/NH_unity_meiro_halloween_2022/NH_unity_meiro_halloween_2022/obj/",
+      "outputPath": "/Users/kei/Desktop/N Code Labo/N-Halloween-Meiro/NH_unity_meiro_halloween_2022/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kei/.nuget/NuGet/NuGet.Config"
@@ -31,7 +50,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/kei/Desktop/N Code Labo/N-Halloween-Meiro/NH_unity_meiro_halloween_2022/Assembly-CSharp.csproj": {
+              "projectPath": "/Users/kei/Desktop/N Code Labo/N-Halloween-Meiro/NH_unity_meiro_halloween_2022/Assembly-CSharp.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
